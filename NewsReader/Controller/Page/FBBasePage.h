@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  FBBasePage.h
 //  NewsReader
 //
 //  Created by jasonwu on 7/7/16.
 //  Copyright © 2016 jasonwu. All rights reserved.
 //
 
-#import "FBBasePage.h"
+#import <UIKit/UIKit.h>
 
-@interface HomePage : FBBasePage
-
+@interface FBBasePage : UIViewController
 
 @end
-

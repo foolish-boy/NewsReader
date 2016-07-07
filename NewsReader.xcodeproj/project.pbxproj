@@ -12,6 +12,7 @@
 		BF5E4C381D2E15C4006418B4 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C371D2E15C4006418B4 /* HomePage.m */; };
 		BFB431621D2E5A940075F528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */; };
 		BFB431631D2E5A940075F528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB431611D2E5A940075F528 /* Main.storyboard */; };
+		BFB431661D2E5CA60075F528 /* FBBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB431651D2E5CA60075F528 /* FBBasePage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		BF5E4C591D2E2A18006418B4 /* NewsReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsReader-Prefix.pch"; sourceTree = "<group>"; };
 		BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB431611D2E5A940075F528 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFB431641D2E5CA60075F528 /* FBBasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBasePage.h; sourceTree = "<group>"; };
+		BFB431651D2E5CA60075F528 /* FBBasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBasePage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 			children = (
 				BF5E4C361D2E15C4006418B4 /* HomePage.h */,
 				BF5E4C371D2E15C4006418B4 /* HomePage.m */,
+				BFB431641D2E5CA60075F528 /* FBBasePage.h */,
+				BFB431651D2E5CA60075F528 /* FBBasePage.m */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				BF5E4C381D2E15C4006418B4 /* HomePage.m in Sources */,
 				BF5E4C351D2E15C4006418B4 /* AppDelegate.m in Sources */,
 				BF5E4C321D2E15C4006418B4 /* main.m in Sources */,
+				BFB431661D2E5CA60075F528 /* FBBasePage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
