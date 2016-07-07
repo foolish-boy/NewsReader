@@ -68,7 +68,7 @@
 				BF5E4C4C1D2E171E006418B4 /* DB */,
 				BF5E4C4D1D2E1747006418B4 /* Utility */,
 				BF5E4C4E1D2E1752006418B4 /* ThirdSDK */,
-				BF5E4C501D2E178C006418B4 /* Define.h */,
+				BF5E4C581D2E249C006418B4 /* Define */,
 				BF5E4C331D2E15C4006418B4 /* AppDelegate.h */,
 				BF5E4C341D2E15C4006418B4 /* AppDelegate.m */,
 				BF5E4C511D2E17C1006418B4 /* Resources */,
@@ -193,6 +193,14 @@
 				BF5E4C3E1D2E15C4006418B4 /* LaunchScreen.storyboard */,
 			);
 			name = Xib;
+			sourceTree = "<group>";
+		};
+		BF5E4C581D2E249C006418B4 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				BF5E4C501D2E178C006418B4 /* Define.h */,
+			);
+			name = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
