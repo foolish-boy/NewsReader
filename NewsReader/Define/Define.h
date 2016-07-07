@@ -7,7 +7,7 @@
 //
 
 #if (DEBUG || TESTCASE)
-#define FxLog(format,...) NSLog(format,$$ __VA_ARGS__)
+#define FxLog(format,...) NSLog(format,## __VA_ARGS__)
 #else
 #define FxLog(format,...)
 #endif
@@ -18,12 +18,12 @@
 #define BASE_INFO_LOG(cls,sel,info) FxLog(@"INFO:%@-%@-%@",NSStringFromClass(cls),NSStringFromSelector(sel),info)
 
 //日志输出函数
-if (DEBUG || TESTCASE)
+#if (DEBUG || TESTCASE)
 #define BASE_LOG_FUNC(self,_cmd)            BASE_LOG([self class],_cmd)
 #define BASE_ERROR_FUNC(self,_cmd,error)    BASE_ERROR_LOG([self class],_cmd,error)
 #define BASE_INFO_FUNC(self,_cmd,info)      BASE_INFO_LOG([self class],_cmd,info)
 #else
-#define  BASE_LOG_FUNC(self,_cmd) 
+#define BASE_LOG_FUNC(self,_cmd) 
 #define BASE_ERROR_FUNC(self,_cmd,error) 
 #define BASE_INFO_FUNC(self,_cmd,info)
 #endif

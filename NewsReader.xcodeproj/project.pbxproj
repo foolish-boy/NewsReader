@@ -10,9 +10,8 @@
 		BF5E4C321D2E15C4006418B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C311D2E15C4006418B4 /* main.m */; };
 		BF5E4C351D2E15C4006418B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C341D2E15C4006418B4 /* AppDelegate.m */; };
 		BF5E4C381D2E15C4006418B4 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C371D2E15C4006418B4 /* HomePage.m */; };
-		BF5E4C3B1D2E15C4006418B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E4C391D2E15C4006418B4 /* Main.storyboard */; };
-		BF5E4C3D1D2E15C4006418B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E4C3C1D2E15C4006418B4 /* Assets.xcassets */; };
-		BF5E4C401D2E15C4006418B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E4C3E1D2E15C4006418B4 /* LaunchScreen.storyboard */; };
+		BFB431621D2E5A940075F528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */; };
+		BFB431631D2E5A940075F528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB431611D2E5A940075F528 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +21,13 @@
 		BF5E4C341D2E15C4006418B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF5E4C361D2E15C4006418B4 /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		BF5E4C371D2E15C4006418B4 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
-		BF5E4C3A1D2E15C4006418B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF5E4C3C1D2E15C4006418B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF5E4C3F1D2E15C4006418B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5E4C411D2E15C4006418B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5E4C471D2E166C006418B4 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		BF5E4C501D2E178C006418B4 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		BF5E4C591D2E2A18006418B4 /* NewsReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsReader-Prefix.pch"; sourceTree = "<group>"; };
+		BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB431611D2E5A940075F528 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5E4C311D2E15C4006418B4 /* main.m */,
+				BF5E4C591D2E2A18006418B4 /* NewsReader-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -91,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Global;
+			path = Global;
 			sourceTree = "<group>";
 		};
 		BF5E4C491D2E16F4006418B4 /* Controller */ = {
@@ -101,42 +102,42 @@
 				BF5E4C531D2E1811006418B4 /* Widget */,
 				BF5E4C541D2E1819006418B4 /* Cell */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		BF5E4C4A1D2E1713006418B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BF5E4C4B1D2E1718006418B4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		BF5E4C4C1D2E171E006418B4 /* DB */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = DB;
+			path = DB;
 			sourceTree = "<group>";
 		};
 		BF5E4C4D1D2E1747006418B4 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Utility;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		BF5E4C4E1D2E1752006418B4 /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ThirdSDK;
+			path = ThirdSDK;
 			sourceTree = "<group>";
 		};
 		BF5E4C511D2E17C1006418B4 /* Resources */ = {
@@ -146,7 +147,7 @@
 				BF5E4C561D2E1836006418B4 /* Image */,
 				BF5E4C571D2E1851006418B4 /* Xib */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BF5E4C521D2E1809006418B4 /* Page */ = {
@@ -155,44 +156,44 @@
 				BF5E4C361D2E15C4006418B4 /* HomePage.h */,
 				BF5E4C371D2E15C4006418B4 /* HomePage.m */,
 			);
-			name = Page;
+			path = Page;
 			sourceTree = "<group>";
 		};
 		BF5E4C531D2E1811006418B4 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Widget;
+			path = Widget;
 			sourceTree = "<group>";
 		};
 		BF5E4C541D2E1819006418B4 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		BF5E4C551D2E182A006418B4 /* Config */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Config;
+			path = Config;
 			sourceTree = "<group>";
 		};
 		BF5E4C561D2E1836006418B4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Image;
+			path = Image;
 			sourceTree = "<group>";
 		};
 		BF5E4C571D2E1851006418B4 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				BF5E4C391D2E15C4006418B4 /* Main.storyboard */,
-				BF5E4C3E1D2E15C4006418B4 /* LaunchScreen.storyboard */,
+				BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */,
+				BFB431611D2E5A940075F528 /* Main.storyboard */,
 			);
-			name = Xib;
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		BF5E4C581D2E249C006418B4 /* Define */ = {
@@ -200,7 +201,7 @@
 			children = (
 				BF5E4C501D2E178C006418B4 /* Define.h */,
 			);
-			name = Define;
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +213,7 @@
 			buildPhases = (
 				BF5E4C291D2E15C4006418B4 /* Sources */,
 				BF5E4C2A1D2E15C4006418B4 /* Frameworks */,
-				BF5E4C2B1D2E15C4006418B4 /* Resources */,
+				BFB4315B1D2E579F0075F528 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -256,13 +257,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BF5E4C2B1D2E15C4006418B4 /* Resources */ = {
+		BFB4315B1D2E579F0075F528 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5E4C401D2E15C4006418B4 /* LaunchScreen.storyboard in Resources */,
-				BF5E4C3D1D2E15C4006418B4 /* Assets.xcassets in Resources */,
-				BF5E4C3B1D2E15C4006418B4 /* Main.storyboard in Resources */,
+				BFB431621D2E5A940075F528 /* LaunchScreen.storyboard in Resources */,
+				BFB431631D2E5A940075F528 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,25 +280,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BF5E4C391D2E15C4006418B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF5E4C3A1D2E15C4006418B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF5E4C3E1D2E15C4006418B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF5E4C3F1D2E15C4006418B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF5E4C421D2E15C4006418B4 /* Debug */ = {
@@ -387,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-Prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = instanza.NewsReader;
@@ -398,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NewsReader/NewsReader-Prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = instanza.NewsReader;
@@ -424,6 +407,7 @@
 				BF5E4C461D2E15C4006418B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
