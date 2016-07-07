@@ -16,8 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    BASE_INFO_FUNC(self, _cmd, @"app start");
+    
+    [NSThread sleepForTimeInterval:2.0];//启动页停留2秒
+    
     return YES;
 }
 

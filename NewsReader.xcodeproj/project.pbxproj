@@ -10,7 +10,9 @@
 		BF5E4C321D2E15C4006418B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C311D2E15C4006418B4 /* main.m */; };
 		BF5E4C351D2E15C4006418B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C341D2E15C4006418B4 /* AppDelegate.m */; };
 		BF5E4C381D2E15C4006418B4 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5E4C371D2E15C4006418B4 /* HomePage.m */; };
-		BFB431621D2E5A940075F528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */; };
+		BF6DCD601D2EAC6A00B23E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E4C3C1D2E15C4006418B4 /* Assets.xcassets */; };
+		BF6DCD631D2EAF7B00B23E97 /* BaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6DCD621D2EAF7B00B23E97 /* BaseInfo.m */; };
+		BF6DCD661D2EB16400B23E97 /* AdvertInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6DCD651D2EB16400B23E97 /* AdvertInfo.m */; };
 		BFB431631D2E5A940075F528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB431611D2E5A940075F528 /* Main.storyboard */; };
 		BFB431661D2E5CA60075F528 /* FBBasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB431651D2E5CA60075F528 /* FBBasePage.m */; };
 /* End PBXBuildFile section */
@@ -27,7 +29,10 @@
 		BF5E4C471D2E166C006418B4 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		BF5E4C501D2E178C006418B4 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		BF5E4C591D2E2A18006418B4 /* NewsReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsReader-Prefix.pch"; sourceTree = "<group>"; };
-		BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF6DCD611D2EAF7B00B23E97 /* BaseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInfo.h; sourceTree = "<group>"; };
+		BF6DCD621D2EAF7B00B23E97 /* BaseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInfo.m; sourceTree = "<group>"; };
+		BF6DCD641D2EB16400B23E97 /* AdvertInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertInfo.h; sourceTree = "<group>"; };
+		BF6DCD651D2EB16400B23E97 /* AdvertInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertInfo.m; sourceTree = "<group>"; };
 		BFB431611D2E5A940075F528 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BFB431641D2E5CA60075F528 /* FBBasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBasePage.h; sourceTree = "<group>"; };
 		BFB431651D2E5CA60075F528 /* FBBasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBasePage.m; sourceTree = "<group>"; };
@@ -111,6 +116,10 @@
 		BF5E4C4A1D2E1713006418B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF6DCD611D2EAF7B00B23E97 /* BaseInfo.h */,
+				BF6DCD621D2EAF7B00B23E97 /* BaseInfo.m */,
+				BF6DCD641D2EB16400B23E97 /* AdvertInfo.h */,
+				BF6DCD651D2EB16400B23E97 /* AdvertInfo.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,7 +204,6 @@
 		BF5E4C571D2E1851006418B4 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				BFB431601D2E5A940075F528 /* LaunchScreen.storyboard */,
 				BFB431611D2E5A940075F528 /* Main.storyboard */,
 			);
 			path = Xib;
@@ -266,7 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB431621D2E5A940075F528 /* LaunchScreen.storyboard in Resources */,
+				BF6DCD601D2EAC6A00B23E97 /* Assets.xcassets in Resources */,
 				BFB431631D2E5A940075F528 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +288,10 @@
 			files = (
 				BF5E4C381D2E15C4006418B4 /* HomePage.m in Sources */,
 				BF5E4C351D2E15C4006418B4 /* AppDelegate.m in Sources */,
+				BF6DCD631D2EAF7B00B23E97 /* BaseInfo.m in Sources */,
 				BF5E4C321D2E15C4006418B4 /* main.m in Sources */,
 				BFB431661D2E5CA60075F528 /* FBBasePage.m in Sources */,
+				BF6DCD661D2EB16400B23E97 /* AdvertInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-Prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = instanza.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,8 +398,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "NewsReader/NewsReader-Prefix.pch";
 				INFOPLIST_FILE = NewsReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = instanza.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
